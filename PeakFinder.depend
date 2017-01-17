@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1484241166 source:/home/turupawn/Clases/Analisis/Progra3Tarea1-master/main.cpp
+	"Evaluador.h"
+	<iostream>
+
+1484240302 /home/turupawn/Clases/Analisis/Progra3Tarea1-master/Evaluador.h
+	<iostream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1484241296 source:/home/turupawn/Clases/Analisis/Progra3Tarea1-master/Evaluador.cpp
+	"Evaluador.h"
+
