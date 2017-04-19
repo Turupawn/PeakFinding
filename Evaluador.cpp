@@ -14,7 +14,7 @@ vector<int> getRandomVector()
 bool isPeak(vector<int> numbers, int position)
 {
     return (position==0 && numbers[1]<=numbers[0])
-       || (position==numbers.size()-1 && numbers[numbers.size()-2]<=numbers[numbers.size()-1])
+       || (position==(int)numbers.size()-1 && numbers[numbers.size()-2]<=numbers[numbers.size()-1])
        || (numbers[position]>=numbers[position-1] && numbers[position]>=numbers[position+1]);
 }
 
