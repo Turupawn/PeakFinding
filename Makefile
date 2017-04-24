@@ -1,6 +1,6 @@
 CC=g++
 CFLAGS=-c -Wall
-SOURCES=main.cpp Evaluador.cpp
+SOURCES=main.cpp Test.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=PeakFinding
 

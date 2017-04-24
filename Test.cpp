@@ -1,8 +1,9 @@
-#include "Evaluador.h"
+#include "Test.h"
 
 vector<int> getRandomVector()
 {
     vector<int> numbers;
+    srand(time(NULL));
     for(int i=0;i<10;i++)
     {
         int num = rand()%100;
