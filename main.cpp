@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int findPeak(vector<int> numbers)
+int power(int base, int exponent)
 {
   return -1;
 }

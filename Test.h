@@ -10,6 +10,6 @@ using namespace std;
 
 void evaluar();
 
-int findPeak(vector<int> numbers);
+int power(int base, int exponent);
 
 #endif // EVALUADOR_H
